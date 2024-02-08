@@ -703,7 +703,8 @@ img {
   justify-content: center; 
   fill: transparent;
 }
-.form-checkbox-accept:checked + .form-accept-label .form-accept-span {
+.form-checkbox-accept:checked + 
+.form-accept-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
