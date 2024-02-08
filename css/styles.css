@@ -533,7 +533,7 @@ img {
   opacity: 0;
   visibility: hidden;
   transition: opascity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibilty 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-open {
   opacity: 1;
@@ -629,6 +629,7 @@ img {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
 }
 .modal-input:focus {
   border-color: #4d5ae5;
@@ -663,6 +664,7 @@ img {
   background-color: transparent;
   outline: transparent;
   resize: none;
+  color: rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea:focus {
@@ -672,7 +674,7 @@ img {
 .form-accept {
   display: flex;
   flex-direction: row;
-  margin-right: 80px;
+  margin-bottom: 24px;
 }
 .form-accept-label {
   color: #8e8f99;
