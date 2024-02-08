@@ -183,7 +183,7 @@ img {
   background-color: #404bbf;
 }
 
-.visualy-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
